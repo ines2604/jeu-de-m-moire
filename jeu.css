@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}   
+body{
+    font-family: Arial, Tahoma, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.front {
+    color: #fff;
+    background-color:#333;
+    line-height: 4cm;
+    font-size: 3cm;
+    width: 4.22cm;
+    margin-top: 0.2cm;
+    margin-left: 6px;
+}
+.back img {
+    width: 4.22cm;
+    height: 3.5cm;
+    margin-top: 0.5cm;
+    margin-left: 6px;
+} 
+
+.res{
+    z-index: -1;
+    width: 17.4cm;
+    background-color: aliceblue;
+    padding: 5px;
+    font-size: 22px;
+    border: 2px solid #86c4f7;
+}
+.res .name {
+    float: left;
+    margin-left: 10px;
+}
+.res .tries {
+    float: right;
+    text-align: right;
+    margin-right: 50px;
+}
+.res img {
+    height: 60px;
+    width: 70px;
+}
+.congrats {
+    background-color: #86c4f7;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+}
+#replay{
+    margin-right: 200px;
+}
+.congrats a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.congrats p{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.lien {
+    display: flex;
+    justify-content: space-between;
+}
+.congrats a:hover {
+    text-decoration: underline;
+}
+.hidden{
+    display: none;
+}
+.inactive{
+    pointer-events: none;
+}
